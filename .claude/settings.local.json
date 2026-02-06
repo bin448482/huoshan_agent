@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s \"C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\huoshan_agent\")",
+      "Bash(cat \"C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\huoshan_agent\\\\readme.md\")",
+      "Bash(curl:*)",
+      "WebFetch(domain:www.volcengine.com)",
+      "WebFetch(domain:)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm install:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(pnpm build:*)",
+      "Bash(mcp-chrome-bridge:*)",
+      "Bash(node:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(start \"\" node \"C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist\\\\index.js\")",
+      "Bash(tasklist:*)",
+      "Bash(taskkill:*)",
+      "Bash(dir \"C:\\\\Users\\\\v-xuzhihao\\\\AppData\\\\Local\\\\mcp-chrome-bridge\\\\logs\")",
+      "Bash(start \"MCP Chrome Server\" cmd /k \"cd /d C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist && node index.js\")",
+      "Bash(start \"MCP Chrome Server\" cmd /k \"cd /d C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist && node start-server.js\")",
+      "Bash(dir \"C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist\\\\logs\")",
+      "Bash(start \"MCP Chrome Server \\(STDIO\\)\" cmd /k \"cd /d C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist && node mcp/mcp-server-stdio.js\")",
+      "Bash(start \"MCP HTTP Server\" cmd /k \"cd /d C:\\\\Projects\\\\Com_Projects\\\\HuoShan\\\\mcp-chrome\\\\app\\\\native-server\\\\dist && node start-http-server.js\")",
+      "Bash(ping:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}
